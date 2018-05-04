@@ -17,6 +17,7 @@
 		EA02827C2099E1FC00022196 /* CartFile in Resources */ = {isa = PBXBuildFile; fileRef = EA02827B2099E1FC00022196 /* CartFile */; };
 		EA0282852099E3C100022196 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0282812099E3C100022196 /* RxSwift.framework */; };
 		EA0282882099E9AB00022196 /* Wireframe+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0282872099E9AB00022196 /* Wireframe+.swift */; };
+		EA02828A209C5CA500022196 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA028289209C5CA500022196 /* SectionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		EA0282802099E3C100022196 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		EA0282812099E3C100022196 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		EA0282872099E9AB00022196 /* Wireframe+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wireframe+.swift"; sourceTree = "<group>"; };
+		EA028289209C5CA500022196 /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				EA0282562099E17300022196 /* LaunchScreen.storyboard */,
 				EA0282592099E17300022196 /* Info.plist */,
 				EA0282872099E9AB00022196 /* Wireframe+.swift */,
+				EA028289209C5CA500022196 /* SectionModel.swift */,
 			);
 			path = ReactiveSandbox;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				EA0282502099E17000022196 /* ViewController.swift in Sources */,
 				EA0282882099E9AB00022196 /* Wireframe+.swift in Sources */,
 				EA02824E2099E17000022196 /* AppDelegate.swift in Sources */,
+				EA02828A209C5CA500022196 /* SectionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
