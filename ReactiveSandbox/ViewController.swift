@@ -24,7 +24,7 @@ final class ViewController: UIViewController {
 
 extension ViewController: UITableViewDelegate {
     fileprivate func prepareTableView() {
-        let items: Observable<[Item]> = Observable.just(
+        let items = Observable.just(
             (0..<20).map { Item(name: "no.\($0)") }
         )
 
